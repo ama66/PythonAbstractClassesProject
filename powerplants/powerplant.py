@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-class powerplant(metaclass=ABCMeta):
+class PowerPlant(metaclass=ABCMeta):
     def __init__(self):
         print(" powerplant Object Created")
     @abstractmethod

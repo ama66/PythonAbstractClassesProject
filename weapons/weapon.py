@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-class weapon(metaclass=ABCMeta):
+class Weapon(metaclass=ABCMeta):
     def __init__(self):
         print("Weapon Object Created")
     @abstractmethod

@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-class vessel(metaclass=ABCMeta):
+class Vessel(metaclass=ABCMeta):
     def __init__(self,weapon,powerplant):
         self.powerplant=powerplant
         self.weapon=weapon
