@@ -10,10 +10,10 @@ class vessel(metaclass=ABCMeta):
     @abstractmethod
     def shutdown_plant(self):
         pass
-    abstractmethod
+    @abstractmethod
     def aim_weapon(self):
         pass
-    abstractmethod
+    @abstractmethod
     def fire_weapon(self):
         pass
 
