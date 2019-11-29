@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod
 class powerplant(metaclass=ABCMeta):
-    def __init(self):
+    def __init__(self):
         print(" powerplant Object Created")
     @abstractmethod
     def lightoff(self):
